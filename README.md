@@ -4,10 +4,9 @@ A.Vehicle Management System:
 What is this? This project is a simple Vehicle Management System built with Java. Its main goal is to show how different objects like Cars and Trucks can share the same basics while still being unique.
 
 B.How it is organized:
+
 The Parent (Vehicle): This is the master plan for all vehicles. It holds the brand and year.
-
 The Children (Car, Motorcycle, Truck): These are specific types of vehicles that inherit everything from the Parent but add their own features.
-
 The Driver: A separate class for people. A driver can be assigned to one or many vehicles.
 
 Key Rules I Followed:
