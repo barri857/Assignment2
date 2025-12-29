@@ -28,7 +28,7 @@ D.Screenshot
 ![Result](Assignment2/docs/screenshots/outscreensh.png)
 
 UML Class Diagram
-![UML Diagram](docs/uml-diagram.png)
+![UML Diagram](Assignment2/docs/screenshots/uml-diagram.png)
 
 E.Reflection:
 What I Learned Using inheritance made the code much cleaner because I did not have to repeat the brand and year for every vehicle. Method overriding was helpful because it allowed the Truck to start with a heavy engine sound while the Car starts normally. The biggest challenge was making sure the Drivers were assigned correctly to the right vehicles, but using a simple array in the Main file made it much easier to manage.
