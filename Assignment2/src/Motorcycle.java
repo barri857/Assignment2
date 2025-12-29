@@ -8,11 +8,11 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public void startEngine() {
-        System.out.println("Motorcycle engine started.");
+        System.out.println("motorcycle engine started");
     }
 
     @Override
     public void stopEngine() {
-        System.out.println("motorcycle engine stopped.");
+        System.out.println("motorcycle engine stopped");
     }
 }
