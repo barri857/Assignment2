@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        Car car = new Car("Toyota", 2022, 4, "Petrol");
-        Motorcycle bike = new Motorcycle("Yamaha", 2021, false);
-        Truck truck = new Truck("Volvo", 2020, 15.0, 3);
+        Car car = new Car("ferrari", 2022, 4, "pista");
+        Motorcycle bike = new Motorcycle("lada", 2021, false);
+        Truck truck = new Truck("porshe", 2020, 15.0, 3);
 
-        Driver driver1 = new Driver("Alibek", "AB123");
-        Driver driver2 = new Driver("Aruzhan", "CD456");
+        Driver driver1 = new Driver("barri", "AB123");
+        Driver driver2 = new Driver("nurasylbekk", "CD456");
 
         car.setDriver(driver1);
         bike.setDriver(driver2);
@@ -21,7 +21,7 @@ public class Main {
                 v.driver.displayDriverInfo();
             }
             v.stopEngine();
-            System.out.println("----------------");
+            System.out.println("-");
         }
     }
 }
